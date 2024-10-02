@@ -4,11 +4,12 @@ Shortcut tool I whipped up at work to override centralized desktop shortcut admi
 README: Shortcut Cleanup and Refresh Script
 
 [Overview]
-•This script removes unwanted Citrix shortcuts from the desktop, restores custom shortcuts from a specified directory, and refreshes the Windows "Shortcut Key cache" to ensure assigned shortcut keys work properly after the script runs.  (Occasionally, Windows' icon cache erroneously preserves key assignments even after the .lnk or .url is moved or deleted, so I included the cache refresh into the script.)
+
+•This script removes unwanted shortcuts from the desktop, restores custom shortcuts from a specified directory, and refreshes the Windows "Shortcut Key cache" to ensure assigned shortcut keys work properly after the script runs.  (Occasionally, Windows' icon cache erroneously preserves key assignments even after the .lnk or .url is moved or deleted, so I included the cache refresh into the script.)
 
 [Key Functions]
 
-•Remove Unwanted Shortcuts: Deletes Citrix-generated shortcuts from the user's desktop.
+•Remove Unwanted Shortcuts: Deletes System-generated shortcuts from the user's desktop.
 
 •Reload Custom Shortcuts: Copies custom shortcuts from a folder (Shortcuts) in the script’s directory to the desktop.
 
