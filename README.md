@@ -33,7 +33,7 @@ README: Shortcut Cleanup and Refresh Script
 
 [Notes]
 
-•Requires administrative privileges for cache clearing.
+•Requires administrative privileges for cache clearing.  Set Task Scheduler to run at highest privileges.
 
 
 Author: Ian Calbreath
